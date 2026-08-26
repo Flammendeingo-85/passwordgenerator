@@ -2,9 +2,7 @@
 
 Password Generator: build with HTML/CSS/Flexbox/Vanilla JavaScript
 
-[Live demo](https://github.com/Flammendeingo-85/passwordgenerator)
-
-![Screenshot](assets/design/Scherm­afbeelding%202026-08-25%20om%2021.13.29.png)
+![Screenshot]()
 
 ## Features
 
