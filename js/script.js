@@ -104,7 +104,7 @@ console.log(getRandomCharacter());
 
 function getRandomPassword() {
   let randomPassword = "";
-  for (i = 0; i < passwordLength; i++) {
+  for (let i = 0; i < passwordLength; i++) {
     randomPassword += getRandomCharacter();
   }
   return randomPassword;
