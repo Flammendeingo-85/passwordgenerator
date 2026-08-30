@@ -93,8 +93,9 @@ const characters = [
 ];
 
 const passwordLength = 18;
-let passwordOne = "";
-let passwordTwo = "";
+let buttonEl = document.getElementById("btn-el");
+let passwordOne = document.getElementById("password-one");
+let passwordTwo = document.getElementById("password-two");
 
 function getRandomCharacter() {
   let randomChar = Math.floor(Math.random() * characters.length);
@@ -111,7 +112,7 @@ function getRandomPassword() {
 }
 console.log(getRandomPassword());
 
-passwordOne = getRandomPassword();
-passwordTwo = getRandomPassword();
-console.log(passwordOne);
-console.log(passwordTwo);
+function renderPasswords() {
+  passwordOne.textContent = getRandomPassword();
+  passwordTwo.textContent = getRandomPassword();
+}

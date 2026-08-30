@@ -4,12 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
-    <script src="./js/script.js"></script>
+    <script src="./js/script.js" defer></script>
     <title>Password_Generator</title>
   </head>
   <body>
     <div class="container">
       <h1>Generate a <span>random password</span></h1>
+      <p>Never use an insecure password again.</p>
+      <button id="btn-el" onclick="renderPasswords()">
+        Generate passwords
+      </button>
+      <hr />
+      <div class="flex-container">
+        <div class="password" id="password-one"></div>
+        <div class="password" id="password-two"></div>
+      </div>
     </div>
   </body>
 </html>

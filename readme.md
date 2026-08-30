@@ -2,8 +2,6 @@
 
 Password Generator: build with HTML/CSS/Flexbox/Vanilla JavaScript
 
-![Screenshot]()
-
 ## Features
 
 - Generate two different passwords
